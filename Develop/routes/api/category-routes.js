@@ -37,7 +37,7 @@ router.get('/:id', (req, res) => {
       if (!dbCategoryData) {
         res.status(404).json({ message: 'No category found with this id!' });
         return;
-      } 
+      }
       res.json(dbCategoryData);
     })
     .catch(err => {
@@ -46,8 +46,16 @@ router.get('/:id', (req, res) => {
     });
 });
 
+// create a new category
 router.post('/', (req, res) => {
-  // create a new category
+  Category.create({
+    category_name: req.body.category_name,
+  })
+    .then(dbCategoryData => res.json(dbCategoryData))
+    .catch(err => {
+      console.error(err);
+      res.status(500).json(err);
+    });
 });
 
 router.put('/:id', (req, res) => {
