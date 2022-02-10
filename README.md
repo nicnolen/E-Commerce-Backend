@@ -61,9 +61,11 @@ To use this application follow the steps below.
 
 ### Screencastify
 
-For a walkthrough of MySQL and how to seed and start the server, watch this walkthrough: https://watch.screencastify.com/v/W0BAlXs3rJCkJSc915V5
+For a walkthrough of MySQL and how to seed and start the server, watch this walkthrough: 
+https://watch.screencastify.com/v/W0BAlXs3rJCkJSc915V5
 
-For a walkthrough of how the routes work using Insomnia, watch this walkthrough: https://watch.screencastify.com/v/5hjYtenjXLqdBQXIpEg5
+For a walkthrough of how the routes work using Insomnia, watch this walkthrough: 
+https://watch.screencastify.com/v/5hjYtenjXLqdBQXIpEg5
 
 ## License
 
